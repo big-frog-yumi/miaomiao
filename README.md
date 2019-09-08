@@ -1,5 +1,7 @@
 # miaomiao
 
+使用Vue框架搭建
+
 ## Project setup
 ```
 npm install
