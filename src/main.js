@@ -11,6 +11,13 @@ Vue.filter('setWH', (url, arg) => {
   return url.replace(/w\.h/, arg);
 });
 
+//创建全局的组件
+import Scroller from '@/components/Scroller'
+Vue.component('Scroller',Scroller);
+
+import Loading from '@/components/Loading'
+Vue.component('Loading',Loading);
+
 new Vue({
   router,
   store,
