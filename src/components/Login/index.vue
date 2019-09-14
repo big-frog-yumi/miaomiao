@@ -1,5 +1,5 @@
 <template>
-  <div id="login_body">
+  <div class="login_body">
     <div>
         <input v-model="username" class="login_text" type="text" placeHolder="账户名/手机号/Email" >
     </div>
@@ -10,7 +10,7 @@
         <input type="text" class="login_text" v-model="verifyImg" placeHolder="请输入您的验证码"> <img @touchstart="handleToVerifyImg" src="/api2/users/verifyImg">
     </div>
     <div class="login_btn">
-        <input type="submit" value="登录" @touchstart="handleToLogin">
+        <input type="submit" value="登录" >
     </div>
     <div class="login_link">
         <router-link to="/mine/register">立即注册</router-link>

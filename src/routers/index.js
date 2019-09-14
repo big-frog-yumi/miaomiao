@@ -16,7 +16,7 @@ export default new Router({
     {
       path:'/*',
       //重定向
-      redirect:'/movie'
+      redirect:'/movie/nowPlaying'
     }
   ]
 })
